@@ -1,0 +1,264 @@
+<!DOCTYPE html class="fa-events-icons-ready">
+<head>
+    <meta charset="UTF-8">
+    <title>Library home page</title>
+
+
+    <link href="//www.deakin.edu.au/__data/assets/css_file/0005/557168/main.min.css?v=0.1.9" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/c064aeab43.css" media="all">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="library1.css">
+    <link rel="stylesheet" href="css/hp.css">
+
+
+    <script src="https://use.fontawesome.com/c064aeab43.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!--    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.1/jquery-ui.min.js"></script>-->
+</head>
+
+<body class="theme_tertiary" cz-shortcut-listen="true">
+<header class="HeaderMain" id="header">
+    <a class="visuallyhidden" href="#main">Skip to main content</a>
+    <div class="HeaderBar">
+        <button class="js-hamburger block Button Button--plain NavigationMobileHamburger" type="button" title="Click to open navigation">
+            <span class="hamburger">
+              <span class="patties"></span>
+            </span>
+            Menu
+        </button>
+        <div class="HeaderBar--container">
+            <div class="HeaderPageTitle">
+                <p>Deakin University Library</p>
+            </div>
+            <div class="Logo">
+                <a class="Logo-link" href="http://www.deakin.edu.au">
+                    Deakin University
+                </a>
+            </div><!-- /.Logo http://www.deakin.edu.au/__data/assets/image/0003/557265/icon_emergency@2x.png http://www.deakin.edu.au/__data/assets/image/0003/557265/icon_emergency@2x.png-->
+        </div>
+    </div>
+    <div class="container Logo">
+        <a class="Logo-link" href="/">
+            <img src="//www.deakin.edu.au/__data/assets/image/0005/6359/Deakin_Worldly_Logo.png?v=0.5.4" alt="Deakin University Australia" class="logo"/>
+        </a>
+    </div><!-- /.Logo -->
+    <div class="js-navigation-mobile NavigationMobile">
+        <div class="block-group">
+            <div class="block NavigationMobileSimple">
+                <ul class="List List--inline NavigationMobileSimple-list">
+                    <li class="List-item">
+                        <a href="http://www.deakin.edu.au/locations">Find us</a>
+                    </li>
+                    <li class="List-item">
+                        <a href="http://www.deakin.edu.au/contact-us">Call us</a>
+                    </li>
+                </ul>
+            </div>
+            <button class="js-hamburger block Button Button--plain NavigationMobileHamburger" type="button" title="Click to open navigation">
+                <i class="fa fa-bars IconFallbackText-icon" aria-hidden="true"></i>
+                <span class="IconFallbackText-text">Menu</span>
+            </button>
+        </div>
+    </div><!-- /.NavigationMobile -->
+
+    <div class="js-navigation Navigation">
+        <span class="Navigation-heading">Menu</span>
+        <button class="js-navigation-close Button Button--plain NavigationClose" type="button" title="Click to close navigation">
+            <img alt="Icon close" src="//www.deakin.edu.au/__data/assets/image/0017/325403/icon-close.png?v=0.1.1" width="20">
+        </button>
+        <nav class="js-navigation-primary NavigationPrimary" role="navigation">
+            <div class="clearfix NavigationPrimary-container"></div>
+        </nav><!-- /.NavigationPrimary -->
+
+        <div class="NavigationSecondary">
+            <div class="clearfix NavigationSecondary-container">
+                <ul class="List NavigationSecondary-list">
+                    <li class="List-item NavigationSecondary-item">
+                        <a class="NavigationSecondary-link NavigationSecondary-link-return" href="http://www.deakin.edu.au">Visit Deakin home
+                            <span class="icon-arrow"></span></a>
+                    </li>
+                </ul>
+            </div><!-- /.container -->
+        </div>
+    </div><!-- /.Navigation -->
+</header><!-- /.HeaderMain -->
+
+            <section id="search_widget" class="container-fluid">
+                <div class="container">
+                        <form id="ebscohostCustomSearchBox" action="http://encore.deakin.edu.au/iii/encore/Home,$Search.form.sdirect" method="get" class="form-horizontal">
+                            <!-- ebsco -->
+                            <input type="hidden" name="lib-home" value="1">
+                            <div id="search" class="row">
+                                <div id="search_input" class="col-xs-12 col-sm-2 col-md-2 col-lg-2"></div>
+                                <div id="search_input" class="col-xs-12 col-sm-8 col-md-8 col-lg-8">
+                                    <h2 class="text-white">Find books, articles, unit codes and more</h2>
+                                    <div id="custom-search-input">
+                                        <div class="input-group col-xs-12 col-md-12">
+                                            <input id="ebscohostsearchtext" name="target" type="text" class="form-control input-lg" placeholder="Search..." data-search="library-search" autocomplete="off" />
+                                            <span class="input-group-btn">
+                                            <button type="submit" id="btn-library-search"  class="btn btn-info btn-lg" type="button">
+                                                <i class="glyphicon glyphicon-search"></i>
+                                            </button>
+                                        </span>
+                                        </div>
+                                    </div>
+                                </div>
+<!--                            </div>-->
+                            <div class="clearfix"></div>
+                            <div id="search_input" class="col-xs-12 col-sm-2 col-md-2 col-lg-2"></div>
+                            <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8" >
+                                <ul class="searchnavlinks text-white text-uppercase">
+                                    <li class="includepipe"><a id="edsadvancedsearch" href="http://ezproxy.deakin.edu.au/login?url=http://search.ebscohost.com/login.aspx?authtype=ip,guest&custid=deakin&profid=eds&groupid=main&setup=1&direct=true">Advanced Search</a></li>
+                                    <li class="includepipe"><a id="catalogue" href="https://encore.deakin.edu.au/iii/encore/?lang=eng">Catalogue</a></li>
+                                    <li class="includepipe"><a id="google" href="http://www.deakin.edu.au/library/google-scholar">Google Scholar</a></li>
+                                    <li class="includepipe"><a id="databases" href="http://www.deakin.edu.au/library/a-z/databases">A-Z Databases</a></li>
+                                    <li><a id="journals" href="http://www.deakin.edu.au/library/a-z/journals">A-Z Journals</a></li>
+                                </ul>
+                            </div>
+                            </div>
+                            <div class="clearfix"></div>
+                        </form>
+
+                </div>
+                </section>
+
+            <div class="clearfix"></div>
+            <section id="links" class="container">
+                <div class="row">
+                    <div class=".col-xs-6 col-md-4">
+                        <div class="links_button">
+                            <div class="col-md-6 col-md-offset-3">Book a space</div>
+                        </div>
+                    </div>
+                    <div id="deakin_sync" class=".col-xs-6 col-md-4">
+                        <div class="links_button">
+                            <div>Deakin Sync</div>
+                        </div>
+                    </div>
+
+                    <div id="my_account" class=".col-xs-6 col-md-4">
+                        <div class="links_button">
+                            <div>My Account</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <hr>
+
+            <section id="campus_libraries" class="container">
+                <h2>Campus Libraries</h2>
+                <div class="row">
+                    <div class="col-md-5ths col-sm-6 col-xs-12">
+                        <div class="links_libraries"></div>
+                    </div>
+                    <div class="col-md-5ths col-sm-6 col-xs-12">
+                        <div class="links_libraries"></div>
+                    </div>
+                    <div class="col-md-5ths col-sm-6 col-xs-12">
+                        <div class="links_libraries"></div>
+                    </div>
+                    <div class="col-md-5ths col-sm-6 col-xs-12">
+                        <div class="links_libraries"></div>
+                    </div>
+                    <div class="col-md-5ths col-sm-6 col-xs-12">
+                        <div class="links_libraries"></div>
+                    </div>
+                </div>
+            </section>
+            <hr>
+            <section id="learn_section" class="container">
+                <div class="row">
+                    <div id="learn" class=".col-xs-12 col-sm-6 col-md-3 col-lg-3 mt-8">
+                        <div class="links_learn">Learn</div>
+                    </div>
+                    <div id="teach" class=".col-xs-12 col-sm-6 col-md-3 col-lg-3 mt-8">
+                        <div class="links_learn">Teach</div>
+                    </div>
+                    <div id="reserch" class=".col-xs-12 col-sm-6 col-md-3 col-lg-3 mt-8">
+                        <div class="links_learn">Research</div>
+                    </div>
+                    <div id="college" class=".col-xs-12 col-sm-6 col-md-3 col-lg-3 mt-8">
+                        <div class="links_learn">College</div>
+                    </div>
+                </div>
+            </section>
+            <hr>
+            <section id="library_news" class="container">
+                <h2>Library News</h2>
+                <div class=".col-xs-6 col-md-8 col-lg-8">
+                    <div class="links_learn">News</div>
+                </div>
+                <div id="deakin_sync" class=".col-xs-6 col-md-4 col-lg-4">
+                    <div class="links_learn">Social</div>
+                </div>
+            </section>
+            <hr>
+<!--Footer-->
+    <footer class="FooterMain"><div class="block-group"><div class="container">
+                <div class="FooterNavMain">
+                    <nav class="FooterNavMain-left">
+                        <ul class="clearfix">
+                            <li class="FooterNavMain-item">
+                                <a class="FooterNavMain-link" href="//www.deakin.edu.au/library">Library</a>
+                            </li>
+                            <li class="FooterNavMain-item">
+                                <a class="FooterNavMain-link" href="http://www.deakin.edu.au/about-deakin/faculties-and-divisions">Faculties &amp; Schools</a>
+                            </li>
+                            <li class="FooterNavMain-item">
+                                <a class="FooterNavMain-link" href="http://www.deakin.edu.au/about-deakin/faculties-and-divisions/administrative-divisions">Administrative Divisions</a>
+                            </li>
+                            <li class="FooterNavMain-item">
+                                <a class="FooterNavMain-link" href="http://www.deakin.edu.au/students/safety-and-security">Security</a>
+                            </li>
+                            <li class="FooterNavMain-item">
+                                <a class="FooterNavMain-link" href="http://www.deakin.edu.au/students/help/emergency-and-crisis-info">Emergency Information</a>
+                            </li>
+                            <li class="FooterNavMain-item">
+                                <a class="FooterNavMain-link" href="http://www.deakin.edu.au/footer/disclaimer">Disclaimer</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <nav class="FooterNavMain-right">
+                        <ul class="clearfix">
+                            <li class="FooterNavMain-item">
+                                <a class="FooterNavMain-link" href="http://www.deakin.edu.au/footer/privacy">Privacy</a>
+                            </li>
+                            <li class="FooterNavMain-item">
+                                <a class="FooterNavMain-link" href="http://www.deakin.edu.au/about-deakin/values/accessibility">Accessibility</a>
+                            </li>
+                            <li class="FooterNavMain-item">
+                                <a class="FooterNavMain-link" href="http://www.deakin.edu.au/students/help/glossary">Glossary</a>
+                            </li>
+                            <li class="FooterNavMain-item">
+                                <a class="FooterNavMain-link" href="http://www.deakin.edu.au/footer/sitemap">Sitemap</a>
+                            </li>
+                            <li class="FooterNavMain-item">
+                                <a class="FooterNavMain-link" href="http://www.deakin.edu.au/students/help/a-to-z-index">A-Z index</a>
+                            </li>
+                            <li class="FooterNavMain-item"><a class="FooterNavMain-link" href="http://www.deakin.edu.au/library/about/conditions-of-use">Conditions of use</a></li></ul>
+                    </nav>
+                </div><!-- /.FooterNavMain -->
+            </div><!-- /.container--></div><!-- /.block-group -->
+
+        <div class="container">
+            <div class="Copyright">
+                <p>
+                    <a class="Copyright-link" href="http://www.deakin.edu.au/courses/ike/welcome-to-country">
+                        We acknowledge the traditional owners of the lands on which Deakin University stands and we pay our respect.
+                    </a>
+                </p>
+                <p class="Copyright-text">
+                    © Copyright Deakin University 2017. Deakin University CRICOS Provider Code 00113B.
+                </p>
+            </div>
+        </div>  </footer>
+<!--Footer end-->
+
+
+</body>
+</html>
+<script src="search.js"></script>

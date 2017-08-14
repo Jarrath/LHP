@@ -1,0 +1,155 @@
+body{
+    background-color: #fff;
+    font-family: worldly-light,OpenSans,Arial,sans-serif;
+}
+@font-family-base{
+
+}
+@font-size-base{
+
+}
+@line-height-base{
+
+}
+@link-color{
+
+}
+
+.col-xs-5ths {
+    width: 20%;
+    float: left;
+}
+
+@media (min-width: 768px) {
+    .col-sm-5ths {
+        width: 20%;
+        float: left;
+    }
+}
+
+@media (min-width: 992px) {
+    .col-md-5ths {
+        width: 20%;
+        float: left;
+    }
+}
+
+@media (min-width: 1200px) {
+    .col-lg-5ths {
+        width: 20%;
+        float: left;
+    }
+}
+ul li {
+    display:inline-block;
+    padding: 0.5em 0.5em 0 0;
+
+}
+li a{
+    text-decoration: none;
+}
+a{
+    color: #FFFFFF !important;
+}
+
+h2 {
+}
+.text-white{
+    color: #FFFFFF;
+}
+.mt-0, mb-0 {
+    margin-top: 0 !important;
+}
+
+.mt-1 {
+    margin-top: 20px !important;
+}
+.mt-8 {
+    margin-top: 80px !important;
+}
+
+.ml-1 {
+    margin-left: ($spacer-x * .25) !important;
+}
+.links_button{
+    background-color: #65526D;
+    height: 60px;
+    padding: 10px;
+    margin: 85px 0 85px 0;
+    color: #FFFFFF;
+}
+.links_libraries{
+    background-color: #65526D;
+    height: 280px;
+    margin-top: 5px;
+    /*color: #FFFFFF;*/
+    margin-bottom: 80px;
+}
+.searchnavlinks{
+    font-size: 0.7em;
+    padding-right: 0.2em;
+}
+.links_learn{
+    background-color: #65526D;
+    height: 225px;
+    /*width: 200px;*/
+    margin-top: 5px;
+    color: #FFFFFF;
+    margin-bottom: 80px;
+}
+ul li.includepipe::after {
+    content: " |";
+}
+ul li.includepipe a, a#journals {
+    padding: 0.5em;
+}
+/* Search widget */
+#search_widget{
+
+    background-image: url(../img/books_1170.jpg);
+    background-color: #4C4C4C;
+}
+
+#learn_section{
+    background-color: #4C3C51;
+    /*height: 385px;*/
+}
+#search {
+    padding: 8em 0 8em 0;*/
+}
+#custom-search-input{
+    padding: 3px;
+    border: solid 1px #E4E4E4;
+    border-radius: 6px;
+    background-color: #fff;
+}
+
+#custom-search-input input{
+    border: 0;
+    box-shadow: none;
+}
+
+#custom-search-input button{
+    margin: 2px 0 0 0;
+    background: none;
+    box-shadow: none;
+    border: 0;
+    color: #666666;
+    padding: 0 8px 0 10px;
+    border-left: solid 1px #ccc;
+}
+
+#custom-search-input button:hover{
+    border: 0;
+    box-shadow: none;
+    border-left: solid 1px #ccc;
+}
+
+#custom-search-input .glyphicon-search{
+    font-size: 23px;
+}
+
+/*Links*/
+#links{
+    background-color: #4C3C51;
+}
