@@ -148,6 +148,15 @@ ul li.includepipe a, a#journals {
 #custom-search-input .glyphicon-search{
     font-size: 23px;
 }
+/*Libraries*/
+.library_div{
+    padding: 30px 0 0 0;
+    width: 175px;
+    display: table;
+    position: inherit;
+    margin: 0 auto;
+}
+
 
 /*Links*/
 #links{
