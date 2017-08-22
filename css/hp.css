@@ -1,6 +1,7 @@
 body{
     background-color: #fff;
     font-family: worldly-light,OpenSans,Arial,sans-serif;
+    color: #65526D;
 }
 @font-family-base{
 
@@ -75,7 +76,7 @@ h2 {
     background-color: #65526D;
     height: 60px;
     padding: 10px;
-    margin: 85px 0 85px 0;
+    margin: 5.5em 0 5.5em 0;
     color: #FFFFFF;
 }
 .links_libraries{
@@ -147,7 +148,7 @@ ul li.includepipe a, a#journals {
     font-size: 23px;
 }
 /*Libraries*/
-section#campus_libraries {
+section#campus_libraries, #library_news {
     padding-top: 5em;
     padding-bottom:  5em;
 }
