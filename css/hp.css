@@ -105,9 +105,7 @@ ul li.includepipe a, a#journals {
 }
 /* Search widget */
 #search_widget{
-
     background-image: url(http://www.deakin.edu.au/__data/assets/image/0007/1130587/homepage-bg.jpg);
-    background-color: #4C4C4C;
 }
 
 #learn_section{
@@ -149,11 +147,21 @@ ul li.includepipe a, a#journals {
     font-size: 23px;
 }
 /*Libraries*/
+section#campus_libraries {
+    padding-top: 5em;
+    padding-bottom:  5em;
+}
 .library_div{
     padding: 30px 0 0 0;
     width: 175px;
     position: inherit;
     margin: 0 auto;
+}
+/*Space, Deakin Sync, My Account Section*/
+.links_icons{
+    width: 2em;
+    margin-top: 0.5em;
+    margin-right: 1em;
 }
 
 /*Links*/
